@@ -11,13 +11,12 @@ import {
   Mail,
 } from 'lucide-react'
 
-// "Contato" não entra aqui: o botão "Fale Conosco" já cobre esse destino,
-// e duplicar o link no menu deixava a navegação redundante
 export const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/cases', label: 'Cases' },
   { href: '/o-que-fazemos', label: 'O que fazemos' },
   { href: '/quem-somos', label: 'Quem somos' },
+  { href: '/contato', label: 'Contato' },
 ]
 
 
