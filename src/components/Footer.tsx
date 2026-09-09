@@ -118,7 +118,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          {/* <div>
             <h4 className="text-sm font-semibold text-white/80 mb-4">Newsletter</h4>
             <p className="text-sm text-white/40 mb-4">Receba insights e tendências de marketing digital.</p>
             {subscribed ? (
@@ -140,7 +140,7 @@ export default function Footer() {
                 </button>
               </form>
             )}
-          </div>
+          </div> */}
         </div>
 
         <div className="py-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4">
