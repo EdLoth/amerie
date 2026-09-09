@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
 import { InstagramIcon, LinkedInIcon, MailOutlineIcon, WhatsAppIcon } from './BrandIcons'
 import { FOOTER_NAV, FOOTER_SERVICES } from '../data/content'
-import { submitLead } from '../lib/leads'
+// import { submitLead } from '../lib/leads'
 
 export default function Footer() {
-  const [subscribed, setSubscribed] = useState(false)
+  // const [subscribed, setSubscribed] = useState(false)
 
-  async function handleSubscribe(e: FormEvent<HTMLFormElement>) {
-    e.preventDefault()
-    const form = e.currentTarget
-    const email = String(new FormData(form).get('email') || '')
-    await submitLead({ email, origem: 'Newsletter' })
-    setSubscribed(true)
-    form.reset()
-  }
+  // async function handleSubscribe(e: FormEvent<HTMLFormElement>) {
+  //   e.preventDefault()
+  //   const form = e.currentTarget
+  //   const email = String(new FormData(form).get('email') || '')
+  //   await submitLead({ email, origem: 'Newsletter' })
+  //   setSubscribed(true)
+  //   form.reset()
+  // }
 
   return (
     <footer className="bg-foreground text-background">
