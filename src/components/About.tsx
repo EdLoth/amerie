@@ -1,6 +1,6 @@
 import { ArrowRight } from 'lucide-react'
 import Reveal from './Reveal'
-import { ABOUT_STATS, ASSETS } from '../data/content'
+import { ASSETS } from '../data/content'
 
 export default function About() {
   return (
